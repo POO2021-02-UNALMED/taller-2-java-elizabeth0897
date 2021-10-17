@@ -12,7 +12,7 @@ public class Auto {
 		int n = 0;
 		for (int i = 0; i < asientos.length; i++) {
 			if (asientos[i] instanceof Asiento) {
-				n = +1;
+				n = n+1;
 			}	
 		}
 		return n;
